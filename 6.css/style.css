@@ -1,0 +1,22 @@
+body {
+   background-image: url("/home/ksb/salha/html/back.jpg");
+   background-repeat: no-repeat;
+   background-size: 1500px 800px;
+   }
+h1{
+      color:red;
+    text-align:center;
+    font-family:courier;
+    }
+h2{
+   color:orange;
+   text-align:center;
+   font-family:Courier New;
+  }
+h3{
+  color:blue;
+  font-family:courier;
+  }
+    
+
+
