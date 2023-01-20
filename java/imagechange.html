@@ -1,0 +1,28 @@
+<html>
+<body>
+<h1>FLOWERS</h1><br><br>
+<h1><p id="name" ></p></h1><br><br>
+<img src="flower.jpg" height="500" width="500" id="image" onmouseover="changeimg();" > 
+
+<script type="text/javascript">
+var img=["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg"];
+var na=['hibiscus','sunflower','lilly','rose','lotus'];
+var i=0;
+var l=img.length;
+function changeimg()
+{
+while(i<l)
+{
+document.getElementById("image").src=img[i];
+document.getElementById("name").innerHTML=na[i];
+i=i+1;
+if(i==5)
+{
+i=0;
+}
+return;
+}
+}
+</script>
+</body>
+</html>
